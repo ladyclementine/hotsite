@@ -1,0 +1,123 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+	.banner-info h1 {
+		font-size: 20px;
+	}
+    
+
+}
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.banner-info h1 {
+		font-size: 50px;
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+   
+
+
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    html {
+        font-size: 80%;
+    }
+	.plano-lista>li{
+		margin: 15px 10px 10px 10px;
+	}
+	.service-icon h5{
+		font-size: 20px;
+	}
+	.navbar-default {
+    background-color: #0d747f;
+    border: transparent;
+    padding:20px 0;
+	}
+	.navbar-default .navbar-toggle {
+    border-color:none;
+    background: #464646;
+	border:0;
+	}
+	.navbar-default .navbar-toggle:hover {
+		background:#000;
+	}
+	
+	.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+	}
+
+	.gb-banner {
+		height: 650px;
+	}
+	.banner-info h1 {
+		font-size: 50px;
+	}
+	.btn-heading{
+		padding: 10px 20px 5px 20px;
+	}
+	.navbar-brand{
+		margin-left: 15px;
+		height: 70px;
+	}
+	.title-card{
+		font-size: 30px;
+	}
+	.socio-copyright p{
+		padding: 10px;
+	}
+   
+}
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    html {
+        font-size: 65%;
+    }
+
+    
+	.banner-info h1 {
+		font-size: 40px;
+	}
+	.banner-info h2 {
+		font-size: 20px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		background-color: #0d747f;
+		border:0;
+
+	}
+	.navbar-default .navbar-nav{
+		border: none;
+	}
+
+}
+
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 60.5%;
+    }
+}
+
